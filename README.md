@@ -62,5 +62,3 @@ At the last recorded validation:
 - Backend automated tests: **20 passed**.
 - Frontend production build: **successful**.
 - Manual checks covered PDF extraction, scanned-PDF OCR, vendor/PO verification, duplicate detection, amount variance, invalid-file handling, and data persistence.
-
-Re-run tests on the current version before relying on these results in a release or review.
