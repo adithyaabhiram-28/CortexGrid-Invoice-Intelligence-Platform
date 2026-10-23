@@ -1,0 +1,13 @@
+Frontend:
+
+cd "C:\Projects\CortexGrid\frontend"
+npm run dev
+
+Backend:
+
+cd "C:\Projects\CortexGrid\backend"
+.\.venv\Scripts\python.exe run.py
+
+Link:
+
+http://localhost:3000/
