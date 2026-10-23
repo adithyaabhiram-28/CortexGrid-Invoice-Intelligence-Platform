@@ -58,20 +58,9 @@ Do not commit real invoice documents, production data, database backups, credent
 ## Testing Status
 
 At the last recorded validation:
+
 - Backend automated tests: **20 passed**.
 - Frontend production build: **successful**.
 - Manual checks covered PDF extraction, scanned-PDF OCR, vendor/PO verification, duplicate detection, amount variance, invalid-file handling, and data persistence.
 
 Re-run tests on the current version before relying on these results in a release or review.
-
-## Future Enhancements
-
-- Improve extraction validation across more invoice formats and scan qualities.
-- Extend line-item reconciliation and verification coverage.
-- Add an evidence-linked explanation for each alert.
-- Add a what-if risk simulator that never modifies the original invoice during simulation.
-- Evaluate advanced anomaly-detection methods only after suitable data and tests are available.
-
-## Security Reminder
-
-Never commit `.env` files, API keys, database passwords, private keys, personal data, real invoices, or production database dumps. If a secret has ever been committed and pushed, removing it from the current files is not enough; rotate that secret as well.
